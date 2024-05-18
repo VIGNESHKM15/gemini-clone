@@ -182,9 +182,16 @@
 }
 
 @media (max-width:600px) {
+    .main-bottom {
+        position: absolute;
+        bottom: -20px;
+        width: 100%;
+        max-width: 900px;
+        padding: 0px 20px;
+    }
     .main-bottom input {
         flex: none;
-        width: 150px;
+        width: 200px;
     }
     .main-bottom img{
         width: 20px;
